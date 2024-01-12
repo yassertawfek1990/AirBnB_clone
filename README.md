@@ -17,8 +17,6 @@ By run this command i ubuntu 20.4 terminal:
  after the prompt (hpnp) apearing gust type the command (help) to see other possiable commands.
 
  ### examples:
-![run program](https://drive.google.com/file/d/14IGHrr9l2eONhXRvwpDIxWur5f72q-O8/view?usp=sharing)
-
-![help command](https://drive.google.com/file/d/1jdLpVzBNnfi9aqMiwb0iqZUipraeUpyG/view?usp=sharing)
-
-![show existing objects](https://drive.google.com/file/d/1OBCuZ5F-zD16DY1vgNGHWUtrCZ38J53g/view?usp=sharing)
+<img src="https://photos.app.goo.gl/6nnqRCUE9q4wtimU8"/>
+<img src="https://photos.app.goo.gl/qf6efRFFm9wYySGx8"/>
+<img src="https://photos.app.goo.gl/zTV2mstSiC2Y9QCY8"/>
