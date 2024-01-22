@@ -1,0 +1,83 @@
+.filters {
+    background-color: white;
+    height: 70px;
+    width: 100%;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+
+.locations,
+.amenities {
+    height: 89%;
+    width: 25%;
+    border-right: 1px solid #DDDDDD;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+}
+
+.locations h3,
+.amenities h3 {
+    font-weight: 600;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.locations h4,
+.amenities h4 {
+    font-weight: 400;
+    font-size: 14px;
+    margin: 0;
+}
+
+.locations ul,
+.amenities ul {
+    width: 278px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #FAFAFA;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px;
+}
+
+.locations ul li,
+.amenities ul li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.locations ul li:hover,
+.amenities ul li:hover {
+    background-color: #DDDDDD;
+}
+
+.search-button {
+    font-size: 18px;
+    background-color: #FF5A5F;
+    color: #FFFFFF;
+    height: 48px;
+    width: 20%;
+    border: none;
+    border-radius: 4px;
+    margin-left: 230px;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    opacity: 0.9;
+}
+
+.locations:hover ul,
+.amenities:hover ul {
+    display: block;
+}

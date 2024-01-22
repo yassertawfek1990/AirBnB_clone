@@ -1,0 +1,72 @@
+.places {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+article {
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #FF5A5F;
+    border-radius: 4px;
+}
+
+article h2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.card {
+    font-family: Arial, sans-serif;
+    color: #333;
+    padding: 20px;
+    max-width: 300px;
+  }
+  
+  .card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .price {
+    color: red;
+    font-weight: bold;
+    float: right;
+    font-size: 24px;
+    border: 2px solid red;
+    border-radius: 50%;
+    padding: 10px;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+  }
+  
+  .details p, .owner, .description {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .details i {
+    margin-right: 5px;
+  }
+  
+  .owner strong {
+    font-weight: bold;
+  }
+  
+  .description {
+    margin-top: 10px;
+    line-height: 1.4;
+  }
+  
+  .fas {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+  }
