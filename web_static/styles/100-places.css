@@ -47,6 +47,26 @@
 .places .user {
   margin: 20px auto 20px auto;
 }
+.places .amenities,
+.places .reviews {
+  margin-top: 40px;
+}
+.places .amenities li {
+  display: flex;
+  flex-direction: row;
+}
+.places .amenities i {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-right: 10px;
+  width: 5%;
+}
+.places .amenities p {
+  margin-top: 20px;
+}
 .places h1 {
   font-size: 30px;
   font-weight: bold;
@@ -62,6 +82,21 @@
      -moz-box-sizing: border-box;
           box-sizing: border-box;
 }
+.places .amenities h2,
+.places .reviews h2 {
+  border-bottom: 1px solid #ddd;
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 10px;
+  text-align: left;
+}
+.places .reviews h3 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 6px;
+  margin-top: 20px;
+}
 footer {
   position: relative;
 }
+
