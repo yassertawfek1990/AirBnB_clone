@@ -1,111 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
+    <meta charset="utf-8">
+    <title>AirBnB clone</title>
+    <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/4-common.css">
     <link rel="stylesheet" href="styles/3-header.css">
     <link rel="stylesheet" href="styles/3-footer.css">
     <link rel="stylesheet" href="styles/6-filters.css">
     <link rel="stylesheet" href="styles/8-places.css">
-    <title>Your Page Title</title>
-</head>
-<header>
-    <div class="icon"></div> 
-    <div class="logo">hbnb</div>
-</header>
-<body>
-    
+    <link rel="stylesheet"
+          href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+          crossorigin="anonymous">
+    <link rel="icon" href="images/icon.png">
+  </head>
+
+  <body>
+    <header></header>
 
     <div class="container">
-        <section class="filters">
-            <div class="locations">
-                <h3>states</h3>
-                <h4>calefornia,..</h4>
-                <ul class="popover">
-                    <li>
-                        <h2>State 1</h2>
-                    </li>
-                    <li>
-                        <h2>State 2</h2>
-                    </li>
-                </ul>
-            </div>
+      <section class="filters">
+        <div class="locations">
+          <h3>States</h3>
+          <h4>Californa, Nevada, Utah...</h4>
+          <div class="popover">
+            <h2>California:</h2>
+            <ul>
+              <li>Los Angeles</li>
+	      <li>San Francisco</li>
+            </ul>
+            <h2>Nevada:</h2>
+            <ul>
+              <li>Las Vegas</li>
+	      <li>Carson City</li>
+            </ul>
+          </div>
 
-            <div class="amenities">
-                <h3>Amenities</h3>
-                <h4>internet,kitchen,..</h4>
-                <ul class="popover">
-                    <li>
-                        <h2>Amenity 1</h2> 
-                    </li>
-                    <li>
-                        <h2>Amenity 2</h2>
-                    </li>
-                </ul>
-            </div>
+        </div><div class="amenities">
+          <h3>Amenities</h3>
+          <h4>ie. Laundry/Internet...</h4>
+          <ul class="popover">
+            <li>Internet</li>
+            <li>TV</li>
+            <li>Kitchen</li>
+            <li>Pool</li>
+          </ul>
+        </div>
+        <button>Search</button>
+      </section>
 
-            <button class="search-button" type="button">Search</button>
-        </section>
-        
+      <section class="places">
         <h1>Places</h1>
-        <section class="places">
-            
-            <article>
-                <div class="card">
-                    <h2>My home <span class="price">$80</span></h2>
-                    <div class="details">
-                      <p><i class="fas fa-users"></i> 2 Guests</p>
-                      <p><i class="fas fa-bed"></i> 1 Bedroom</p>
-                      <p><i class="fas fa-bath"></i> 1 Bathroom</p>
-                    </div>
-                    <div class="owner">
-                      <strong>Owner:</strong> John Lennon
-                    </div>
-                    <p class="description">
-                      This is a lovely 1 bedroom and 1 bathroom apartment that can accommodate 2 people. It locates at the center of Shanghai and next to subway line 1. 1 stop to People Square, 2 stops to Bund, 3 stops to Jingan Temple.
-                    </p>
-                  </div>
-            </article>
-            <article>
-                <div class="card">
-                    <h2>My home <span class="price">$80</span></h2>
-                    <div class="details">
-                      <p><i class="fas fa-users"></i> 2 Guests</p>
-                      <p><i class="fas fa-bed"></i> 1 Bedroom</p>
-                      <p><i class="fas fa-bath"></i> 1 Bathroom</p>
-                    </div>
-                    <div class="owner">
-                      <strong>Owner:</strong> John Lennon
-                    </div>
-                    <p class="description">
-                      This is a lovely 1 bedroom and 1 bathroom apartment that can accommodate 2 people. It locates at the center of Shanghai and next to subway line 1. 1 stop to People Square, 2 stops to Bund, 3 stops to Jingan Temple.
-                    </p>
-                  </div>
-            </article>
-                <article>
-                    <div class="card">
-                        <h2>My home <span class="price">$80</span></h2>
-                        <div class="details">
-                          <p><i class="fas fa-users"></i> 2 Guests</p>
-                          <p><i class="fas fa-bed"></i> 1 Bedroom</p>
-                          <p><i class="fas fa-bath"></i> 1 Bathroom</p>
-                        </div>
-                        <div class="owner">
-                          <strong>Owner:</strong> John Lennon
-                        </div>
-                        <p class="description">
-                          This is a lovely 1 bedroom and 1 bathroom apartment that can accommodate 2 people. It locates at the center of Shanghai and next to subway line 1. 1 stop to People Square, 2 stops to Bund, 3 stops to Jingan Temple.
-                        </p>
-                      </div>
-                </article>
-        </section>
+        <article>
+          <div class="name_and_price">
+            <h2>Fort</h2>
+            <div class="price_by_night">&#36;4</div>
+          </div>
+          <div class="information">
+            <div class="max_guest">
+              <i class="fa fa-users fa-3x" aria-hidden="true"></i>
+              <br>1 Guests
+            </div>
+            <div class="number_rooms">
+              <i class="fa fa-bed fa-3x" aria-hidden="true"></i>
+              <br>1 Room
+            </div>
+            <div class="number_bathrooms">
+              <i class="fa fa-bath fa-3x" aria-hidden="true"></i>
+              <br>0 Bathrooms
+            </div>
+          </div>
+          <div class="user">
+            <strong>Owner:</strong> My 3 year-old son
+          </div>
+          <div class="description">
+            wow what a wonderfull offer you can not miss come see it try it check it you will never regret thats the best offer you might enciunter!
+          </div>
+        </article>
+
+        <article>
+          <div class="name_and_price">
+            <h2>House Couch</h2>
+            <div class="price_by_night">&#36;40</div>
+          </div>
+          <div class="information">
+            <div class="max_guest">
+              <i class="fa fa-users fa-3x" aria-hidden="true"></i>
+              <br>1 Guest
+            </div>
+            <div class="number_rooms">
+              <i class="fa fa-bed fa-3x" aria-hidden="true"></i>
+              <br>2 Room
+            </div>
+            <div class="number_bathrooms">
+              <i class="fa fa-bath fa-3x" aria-hidden="true"></i>
+              <br>1 Bathrooms
+            </div>
+          </div>
+          <div class="user"><strong>Owner:</strong> Theta</div>
+          <div class="description">
+            So, we've got this old piece that is perfect for you and anyone you know come see it I am waiting for you!
+          </div>
+        </article>
+
+        <article>
+          <div class="name_and_price">
+            <h2>Are You My?</h2>
+            <div class="price_by_night">&#36;1</div>
+          </div>
+          <div class="information">
+            <div class="max_guest">
+              <i class="fa fa-users fa-3x" aria-hidden="true"></i>
+              <br>2 Guest
+            </div>
+            <div class="number_rooms">
+              <i class="fa fa-bed fa-3x" aria-hidden="true"></i>
+              <br>2 Rooms
+            </div>
+            <div class="number_bathrooms">
+              <i class="fa fa-bath fa-3x" aria-hidden="true"></i>
+              <br>2 Bathrooms
+            </div>
+          </div>
+          <div class="user">
+            <strong>Owner:</strong> Avocado &#38; Spiritualist
+          </div>
+          <div class="description">
+            Hi there. This is a lovely 2 bedroom and 2 bathroom apartment that can accommodate 2 people. It locates at the center and next to subway line 1, 1 stop to People Square Temple waiting for you.
+          </div>
+        </article>
+
+        <article>
+          <div class="name_and_price">
+            <h2>Normal House</h2>
+            <div class="price_by_night">&#36;70</div>
+          </div>
+          <div class="information">
+            <div class="max_guest">
+              <i class="fa fa-users fa-3x" aria-hidden="true"></i>
+              <br>3 Guests
+            </div>
+            <div class="number_rooms">
+              <i class="fa fa-bed fa-3x" aria-hidden="true"></i>
+              <br>3 BedRooms
+            </div>
+            <div class="number_bathrooms">
+              <i class="fa fa-bath fa-3x" aria-hidden="true"></i>
+              <br>2 Bathrooms
+            </div>
+          </div>
+          <div class="user">
+            <strong>Owner:</strong> Trisa</div>
+          <div class="description">
+            This is a apartment that can accommodate 2 people. It locates at the center of Shangai and next to subway line 1, 1 stop to People Square, 2 stops to Bund, 3 stops to Jingan Temple ypu shouldn't need to say anything else at all.
+          </div>
+        </article>
+      </section>
     </div>
-    <main>
-        <section>
-            <h2></h2>
-        </section>
-    </main>
-</body>
-<footer>
-    <p>Best School</p>
-</footer>
+    <footer>
+      Best School
+    </footer>
+  </body>
 </html>

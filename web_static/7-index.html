@@ -1,73 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
+    <meta charset="utf-8">
+    <title>AirBnB clone</title>
+    <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/4-common.css">
     <link rel="stylesheet" href="styles/3-header.css">
     <link rel="stylesheet" href="styles/3-footer.css">
     <link rel="stylesheet" href="styles/6-filters.css">
     <link rel="stylesheet" href="styles/7-places.css">
-    <title>Your Page Title</title>
-</head>
-<body>
-    <header>
-        <div class="icon"></div> 
-        <div class="logo">hbnb</div>
-    </header>
-
+    <link rel="icon" href="images/icon.png">
+  </head>
+  <body>
+    <header></header>
     <div class="container">
-        <section class="filters">
-            <div class="locations">
-                <h3>states</h3>
-                <h4>calefornia,..</h4>
-                <ul class="popover">
-                    <li>
-                        <h2>State 1</h2>
-                    </li>
-                    <li>
-                        <h2>State 2</h2>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="amenities">
-                <h3>Amenities</h3>
-                <h4>internet,kitchen,..</h4>
-                <ul class="popover">
-                    <li>
-                        <h2>Amenity 1</h2> 
-                    </li>
-                    <li>
-                        <h2>Amenity 2</h2>
-                    </li>
-                </ul>
-            </div>
-
-            <button class="search-button" type="button">Search</button>
-        </section>
-        
+      <section class="filters">
+        <div class="locations">
+          <h3>States</h3>
+          <h4>Californa, Nevada, Utah...</h4>
+          <div class="popover">
+            <h2>California:</h2>
+            <ul>
+              <li>Los Angeles</li>
+              <li>San Francisco</li>
+            </ul>
+            <h2>Nevada:</h2>
+            <ul>
+              <li>Las Vegas</li>
+              <li>Carson City</li>
+            </ul>
+          </div>
+        </div><div class="amenities">
+          <h3>Amenities</h3>
+          <h4>Internet, Kitchen, Pool...</h4>
+          <ul class="popover">
+            <li>Internet</li>
+            <li>TV</li>
+            <li>Kitchen</li>
+            <li>Pool</li>
+          </ul>
+        </div>
+        <button>Search</button>
+      </section>
+      <section class="places">
         <h1>Places</h1>
-        <section class="places">
-            
-            <article>
-                <h2>My home</h2>
-            </article>
-            <article>
-                <h2>Tiny house</h2>
-            </article>
-                <article>
-                    <h2>A suite</h2>
-                </article>
-        </section>
+        <article>
+          <h2>House</h2>
+        </article><article>
+          <h2>Home</h2>
+        </article><article>
+          <h2>Flat</h2>
+        </article>
+      </section>
     </div>
-
-    <main>
-        <section>
-            <h2></h2>
-        </section>
-    </main>
-
     <footer>
-        <p>Best School</p>
+      Best School
     </footer>
-</body>
+  </body>
 </html>
